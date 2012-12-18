@@ -1,0 +1,16 @@
+name = CRF Devel
+core = 7.x
+package = CRF
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = devel_node_access
+dependencies[] = features
+dependencies[] = maillog
+features[features_api][] = api:1
+features[user_permission][] = access devel information
+features[user_permission][] = administer maillog
+features[user_permission][] = delete maillog
+features[user_permission][] = execute php code
+features[user_permission][] = switch users
+features[user_permission][] = view devel_node_access information
+features[user_permission][] = view maillog
