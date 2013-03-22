@@ -14,9 +14,9 @@ function crf_devel_user_default_permissions() {
   $permissions['access devel information'] = array(
     'name' => 'access devel information',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'devel',
   );
@@ -25,7 +25,7 @@ function crf_devel_user_default_permissions() {
   $permissions['administer maillog'] = array(
     'name' => 'administer maillog',
     'roles' => array(
-      0 => 'administrator',
+      'administrator' => 'administrator',
     ),
     'module' => 'maillog',
   );
@@ -34,7 +34,7 @@ function crf_devel_user_default_permissions() {
   $permissions['delete maillog'] = array(
     'name' => 'delete maillog',
     'roles' => array(
-      0 => 'administrator',
+      'administrator' => 'administrator',
     ),
     'module' => 'maillog',
   );
@@ -43,7 +43,7 @@ function crf_devel_user_default_permissions() {
   $permissions['execute php code'] = array(
     'name' => 'execute php code',
     'roles' => array(
-      0 => 'administrator',
+      'administrator' => 'administrator',
     ),
     'module' => 'devel',
   );
@@ -52,8 +52,8 @@ function crf_devel_user_default_permissions() {
   $permissions['switch users'] = array(
     'name' => 'switch users',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'authenticated user',
+      'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'devel',
   );
@@ -62,9 +62,9 @@ function crf_devel_user_default_permissions() {
   $permissions['view devel_node_access information'] = array(
     'name' => 'view devel_node_access information',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'devel_node_access',
   );
@@ -73,7 +73,7 @@ function crf_devel_user_default_permissions() {
   $permissions['view maillog'] = array(
     'name' => 'view maillog',
     'roles' => array(
-      0 => 'administrator',
+      'administrator' => 'administrator',
     ),
     'module' => 'maillog',
   );
