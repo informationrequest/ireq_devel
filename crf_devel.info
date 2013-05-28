@@ -8,6 +8,7 @@ dependencies[] = devel_node_access
 dependencies[] = features
 dependencies[] = maillog
 dependencies[] = admin_menu
+dependencies[] = diff
 dependencies[] = ftools
 dependencies[] = module_filter
 dependencies[] = rules_admin
