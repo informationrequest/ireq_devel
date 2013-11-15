@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * crf_devel.features.user_permission.inc
+ * ireq_devel.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function crf_devel_user_default_permissions() {
+function ireq_devel_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: access devel information.

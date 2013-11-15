@@ -1,6 +1,6 @@
-name = CRF Devel
+name = IREQ Devel
 core = 7.x
-package = CRF
+package = IREQ
 php = 5.2.4
 dependencies[] = devel
 dependencies[] = devel_generate
